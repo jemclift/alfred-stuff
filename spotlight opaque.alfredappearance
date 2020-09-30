@@ -1,0 +1,60 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 14,
+        "colorSelected" : "#A4A6A4FF",
+        "font" : "Helvetica Neue",
+        "color" : "#A4A6A4FF"
+      },
+      "shortcut" : {
+        "size" : 18,
+        "colorSelected" : "#459DFDFF",
+        "font" : "Helvetica Neue",
+        "color" : "#459AF4FF"
+      },
+      "backgroundSelected" : "#5B5E5FFF",
+      "text" : {
+        "size" : 20,
+        "colorSelected" : "#FEFFFFFF",
+        "font" : "Helvetica Neue",
+        "color" : "#FFFFFFFF"
+      },
+      "iconPaddingHorizontal" : 8,
+      "paddingVertical" : 6,
+      "iconSize" : 38
+    },
+    "separator" : {
+      "color" : "#FFFFFF00",
+      "thickness" : 1
+    },
+    "search" : {
+      "paddingVertical" : 0,
+      "background" : "#3D4041FF",
+      "spacing" : 10,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#E6E5E5FF",
+        "font" : "Helvetica Neue",
+        "color" : "#EAEAEAFF"
+      },
+      "backgroundSelected" : "#3F638BFF"
+    },
+    "scrollbar" : {
+      "color" : "#0000000F",
+      "thickness" : 2
+    },
+    "name" : "Spotlight Opaque",
+    "window" : {
+      "color" : "#3D4041FF",
+      "paddingHorizontal" : 0,
+      "width" : 680,
+      "borderPadding" : 1,
+      "borderColor" : "#909191FF",
+      "blur" : 40,
+      "roundness" : 6,
+      "paddingVertical" : 8
+    }
+  }
+}
