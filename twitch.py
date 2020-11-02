@@ -1,8 +1,8 @@
 import requests, sys, os, datetime, math
 
 cache = "<some path>"
-refresh_streamers = True
-personal_id = '<personal id>'
+refresh_streamers = True # When true the list of streamers followed will be updated
+personal_id = '<personal id>' # Your twitch id
 
 headers = {
 	'client-id': '<client id>',
@@ -53,7 +53,7 @@ with open(cache+'users.txt', 'r') as file:
 				
 			output +="""  {
     \"title\": \""""+stream['user_name']+" - "+stream['title']+"""\",
-    \"subtitle\": \""""+str(stream['viewer_count'])+" Viewers, Live for "+date_str+"""\",
+    \"subtitle\": \""""+"{:,}".format(stream['viewer_count'])+" Viewers, Live for "+date_str+"""\",
     \"arg\": \"https://www.twitch.tv/"""+stream['user_name']+"""/\",
     \"autocomplete\": \""""+stream['user_name']+"""\",
     \"icon\": {
